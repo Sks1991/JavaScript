@@ -29,20 +29,47 @@
 
 
 // Array
-const heros = ["shaktiman", "naagraj", "doga"]
-console.log(heros);
+// const heros = ["shaktiman", "naagraj", "doga"]
+// console.log(heros);
 
 // Object
-let myObj = {
-     name: "Sudhir",
-     age: 22,
-}
-console.log(myObj);
+// let myObj = {
+//      name: "Sudhir",
+//      age: 22,
+// }
+// console.log(myObj);
 
 // Function
-const myFunction = function() {
-    console.log("Sudhir");
+// const myFunction = function() {
+//     console.log("Sudhir");
+// }
+
+
+//**********************************************************************************************************
+// Stack (Primitive) , Heap (Non-Premitive)
+
+// let myYouMyProjectName = "JavaScriptLearn"
+// let anotherName = "myYouMyProjectName"
+
+// anotherName ="JSFull"
+
+// console.log(myYouMyProjectName);
+// console.log(anotherName);
+
+
+let userOne = {
+    email: "sudhir@gooogle.com",
+    upi: "user@abl"
 }
+let userTwo = userOne
+
+userTwo.email = "sudhir@goooooogle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
 
 
