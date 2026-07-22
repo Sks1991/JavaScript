@@ -1,7 +1,7 @@
-const accountId = 144553
-let accountEmail = "sudhir@google.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
+const accountId = 144553;
+let accountEmail = "sudhir@google.com";
+var accountPassword = "12345";
+accountCity = "Jaipur";
 let accountState;
 
 // accountId = 2  //not allowed with const (not change gives error)
@@ -10,15 +10,17 @@ let accountState;
 // accountCity = "Bengaluru" // can be change without variables (bad method)
 //accountState = //undefined when no value is passed
 
-/*
-prefer not to use var because of issue in block scope and functional scope
-*/
+// prefer not to use var because of issue in block scope and functional scope
 
 // console.log(accountId);
 // console.log(accountEmail);
 // console.log(accountPassword);
 // console.log(accountCity);
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]); //one console for many arguments but it showing in tabular form.
-
-
+console.table([
+  accountId,
+  accountEmail,
+  accountPassword,
+  accountCity,
+  accountState,
+]); //one console for many arguments but it showing in tabular form.

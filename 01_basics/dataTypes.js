@@ -13,7 +13,7 @@
 // symbol => unique
 // object =>
 
-         //-------------------PRIMITIVE DATATYPE-----------------------//
+//-------------------PRIMITIVE DATATYPE-----------------------//
 // | Data Type | Example   |
 // | --------- | --------- |
 // | Number    | 10, 5.5   |
@@ -24,7 +24,7 @@
 // | Symbol    | Symbol()  |
 // | BigInt    | 123n      |
 
-         //------------------Non-PRIMITIVE-----------------------------//
+//------------------Non-PRIMITIVE-----------------------------//
 
 // Object
 // Array
@@ -34,21 +34,18 @@
 // Map
 // Set
 
-
 // let name = "sudhir"; // String
 // let age = 35; // Integer
 // let isLoggedIn = false; // Boolean
 // let state;
 
-console.log(typeof 10);             // number
-console.log(typeof "Hello");        // string
-console.log(typeof true);           // boolean
-console.log(typeof undefined);      // undefined
-console.log(typeof Symbol());       // symbol
-console.log(typeof 123n);           // bigint
-console.log(typeof {});             // object
-console.log(typeof []);             // object
-console.log(typeof function(){});   // function
-console.log(typeof null);           // object (historical bug)
-
-
+console.log(typeof 10); // number
+console.log(typeof "Hello"); // string
+console.log(typeof true); // boolean
+console.log(typeof undefined); // undefined
+console.log(typeof Symbol()); // symbol
+console.log(typeof 123n); // bigint
+console.log(typeof {}); // object
+console.log(typeof []); // object
+console.log(typeof function () {}); // function
+console.log(typeof null); // object (historical bug)
