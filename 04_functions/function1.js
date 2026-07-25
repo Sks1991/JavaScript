@@ -45,5 +45,5 @@ function loginUserMsg(username = "sudhir"){             // (username = "sudhir")
     return `${username} just logged in`
 }
 console.log(loginUserMsg("sudhir"))                     //  given => sudhir just logged in
-console.log(loginUserMsg(""));                            //  given =>undefined
+console.log(loginUserMsg());                            //  given =>undefined
 
